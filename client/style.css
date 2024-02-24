@@ -314,8 +314,6 @@ footer {
 .main-container2{
     padding: 0 5px;
     width: 100vw;
-    margin: 0;
-    flex: none;
     flex-direction: column;
 } 
 .card-container {
