@@ -160,7 +160,7 @@ header h1 {
 .content-card {
     background-color: var(--darkpurple);
     color: white;
-    padding: 65px;
+    padding: 55px;
     margin: 0 auto;
 }
 .bottom-swirly {
@@ -189,7 +189,7 @@ footer {
 
 
 /* ---Tablet---*/
-@media (min-width: 695px) and (max-width: 909px) {
+@media (min-width: 600px) and (max-width: 900px) {
     body {
         font-size: 16px;
     }
@@ -244,12 +244,15 @@ footer {
     }
 /* --Section Two-- */ 
     .card-container > .content-card > h1 {
-    font-size: 40px;
+    font-size: 37px;
     }
     .main-container2{
         padding: 0 25px;
         height: 510px;
         width: 900px;
+    }
+    .content-card {
+        padding: 30px;
     }
     .co-founder-img {
         width: 265px;
@@ -259,13 +262,20 @@ footer {
 
 
 /* --- Mobile Version --- */
-@media (min-width: 100px) and (max-width:694px) {
+@media (min-width: 100px) and (max-width:599px) {
+    body {
+        font-size: 16px;
+    }
   nav {
     padding: 50px 25px;
   }
+  .nav-a{
+    margin-left: 52px;
+
+  }
   header h1 {
-    font-size: 50px;
-    width: 343px;
+    font-size: 40px;
+    width: 80lvw;
 }
 .main-header-content-container > img {
     padding-top: 50px;
@@ -278,21 +288,49 @@ footer {
 
 /*-- Main -- */
 .section-one {
-    height: 800px;
-    align-items: center;
-    justify-content: center;
+    height: 900px;
     text-align: center;
+    flex-direction: column;
+}
+.card {
+    width: 80vw;
 }
  .right-column  {
     padding-left: 0;
 }
-.number {
-    float: none;
-}
-.section-two {
-    height: auto;
+/* --- Section Two --- */
+.card-container > .content-card > h1 {
+    font-size: 30px;
+    }
+.img-div {
     display: flex;
-    flex-direction: column;
+    align-items: start;
+    justify-content: center;
 }
-
+.co-founder-img {
+    width: 260px;
+    height: 267px;
+}
+.main-container2{
+    padding: 0 5px;
+    width: 100vw;
+    margin: 0;
+    flex: none;
+    flex-direction: column;
+} 
+.card-container {
+    margin-left: 5px;
+}
+.content-card {
+    text-align: center;
+    padding: 30px;
+    margin: -50px auto 0 auto;
+}
+.btn-green-background {
+    margin-top: 8px;
+   padding: 12px 24px; 
+}
+.bottom-swirly {
+    display: none;
+}
 }
