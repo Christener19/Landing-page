@@ -1,0 +1,84 @@
+/*--  Colours to be used -*/
+
+:root {
+    --darkpurple: #24053E;
+    --mintgreen: #44FFA1;
+    --mauve: #584D62;
+    --ghostwhite: #FCF8FF;
+    --white: #FFFFFF
+}
+
+/*--- Repeating styles ---*/
+a {
+    text-decoration: none;
+}
+
+/* --- Body onwards ---- */
+body {
+    margin: 0;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    color: var(--darkpurple);
+}
+
+/*--- NAV-BAR ---*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 57px 150px 57px 150px;
+}
+nav > img {
+ width: 96px;
+ height: 25px;
+}
+.green-underline {
+    color: white;
+    border-bottom: 2px solid #44FFA1;
+}
+
+nav, header {
+    background-color: var(--darkpurple);
+}
+
+/* ---Header--- */
+header {
+    color: var(--white);
+    position: relative;
+}
+header h1 {
+    font-size: 80px;
+    width: 635px;
+    text-align: center;
+    /* margin: 0; */
+}
+.btn-green-background {
+    margin: auto;
+    background-color: var(--mintgreen);
+    color: var(--darkpurple);
+    padding: 15px;
+}
+.main-header-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-header-content-container > img {
+    padding-top: 50px;
+    width: 702px;
+    height: 405px;
+}
+
+.float-left {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 230px;
+}
+.float-right {
+    position: absolute;
+    width: 134px;
+    right: -40px;
+    top: 35%;
+}
