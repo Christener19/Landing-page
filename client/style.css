@@ -129,7 +129,7 @@ header h1 {
 
 /* Section two */
 .card-container > .content-card > h1 {
-    font-size: 56px;
+    font-size: 50px;
     margin: 0;
 }
 .section-two {
@@ -189,7 +189,7 @@ footer {
 
 
 /* ---Tablet---*/
-@media (min-width: 100px) and (max-width: 900px) {
+@media (min-width: 695px) and (max-width: 909px) {
     body {
         font-size: 16px;
     }
@@ -243,6 +243,14 @@ footer {
         height: 46px;
     }
 /* --Section Two-- */ 
+    .card-container > .content-card > h1 {
+    font-size: 40px;
+    }
+    .main-container2{
+        padding: 0 25px;
+        height: 510px;
+        width: 900px;
+    }
     .co-founder-img {
         width: 265px;
         height: 267px;
@@ -251,7 +259,7 @@ footer {
 
 
 /* --- Mobile Version --- */
-@media (min-width: 100px) and (max-width:550px) {
+@media (min-width: 100px) and (max-width:694px) {
   nav {
     padding: 50px 25px;
   }
