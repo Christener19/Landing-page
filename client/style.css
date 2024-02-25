@@ -54,9 +54,10 @@ nav, header {
 header {
     color: var(--white);
     border-radius: 0 0 500px 500px / 50px;
-    height: 700px;
+    height: 550px;
 }
 header h1 {
+    margin: 0;
     font-size: 80px;
     width: 635px;
     text-align: center;}
@@ -113,13 +114,14 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 550px;
+    height: 650px;
     margin: auto auto 100px auto;
     padding: 50px;
     text-align: center;
 }
 .card {
-    padding: 0 26px;
+    padding: 50px 26px 0 26px;
+    width: 350px;
 }
 .number {
     border: solid var(--darkpurple) 1px;
