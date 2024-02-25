@@ -53,9 +53,8 @@ nav, header {
 /* ---Header--- */
 header {
     color: var(--white);
-    position: relative;
-    overflow: hidden;
     border-radius: 0 0 500px 500px / 50px;
+    height: 700px;
 }
 header h1 {
     font-size: 80px;
@@ -65,7 +64,7 @@ header h1 {
     margin: auto;
     background-color: var(--mintgreen);
     color: var(--darkpurple);
-    padding: 15px 24px;
+    padding: 15px 30px;
     display: inline-block;
     margin-top: 35px;
 }
@@ -75,16 +74,14 @@ header h1 {
     border: var(--mintgreen) solid 2px;
 }
 .main-header-content-container{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
 }
-.main-header-content-container > img {
-    padding-top: 50px;
-    width: 702px;
-    height: 405px;
-}
-
 .float-left {
     position: absolute;
     top: 0;
@@ -97,6 +94,16 @@ header h1 {
     top: 35%;
     right: -40px;
 }
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+.phone {
+    padding-top: 50px;
+    width: 702px;
+    height: 405px;
+
+}
 
 /* --- Main --- */
 
@@ -106,13 +113,13 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 308px;
-    margin: auto auto 120px auto;
+    height: 500px;
+    margin: auto auto 100px auto;
     padding: 50px;
     text-align: center;
 }
 .card {
-    padding: 26px;
+    padding: 0 26px;
 }
 
 .number {
@@ -205,7 +212,14 @@ footer {
         font-size: 60px;
         width: 573px;
     }
-    .main-header-content-container > img {
+    header {
+        height: 450px;
+    }
+    .btn-green-background {
+        margin: 0;
+        padding: 10px 20px;
+    }
+    .phone {
         padding-top: 50px;
         width: 479px;
         height: 286px;
@@ -224,8 +238,8 @@ footer {
     
     .section-one {
         flex-direction: column;
-        align-items: start;
-        height: 452px;
+        justify-content: end;
+        height: 550px;
         text-align: left;
     }
     .card {
@@ -272,13 +286,15 @@ footer {
   }
   .nav-a{
     margin-left: 52px;
-
+  }
+  header {
+    height: 350px;
   }
   header h1 {
     font-size: 40px;
     width: 80lvw;
 }
-.main-header-content-container > img {
+.phone {
     padding-top: 50px;
     width: 292px;
     height: 168px;
@@ -295,6 +311,7 @@ footer {
 }
 .card {
     width: 80vw;
+    padding-top: 40px;
 }
  .right-column  {
     padding-left: 0;
