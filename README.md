@@ -1,5 +1,7 @@
 #  Workit landing page - Frontend Mentor
 
+This was completed using HTML and CSS. I came across an issue with setting overflow to hidden on the header to stop the two swirls from widening the x-axis. However, this caused the hero image (mobile phone) to stop overflowing. The solution was to modify the HTML so that the hero image, comes last in the header div. Then, I set the main-header-content-container to overflow: hidden.
+
 #
 
 # The designs given
