@@ -238,23 +238,23 @@ footer {
     .section-one {
         flex-direction: column;
         justify-content: end;
-        height: 550px;
+        height: 600px;
         text-align: left;
     }
     .card {
-        margin: 0 auto;
+        display: flex;
     }
     .card > .right-column > h2 {
         font-size: 28px;
         margin: 0;
     }
-    .right-column{
-        padding-left: 90px;
+    .right-column {
+        padding: 20px 0 10px 50px;
     }
     .number {
-        float: left;
-        width: 48px;
-        height: 46px;
+        border-radius: 50%;
+        width: 90px;
+        height: 45px;
     }
 /* --Section Two-- */ 
     .card-container > .content-card > h1 {
