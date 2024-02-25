@@ -331,6 +331,9 @@ footer {
     align-items: start;
     justify-content: center;
 }
+.section-two {
+    height: auto;
+}
 .co-founder-img {
     width: 260px;
     height: 267px;
